@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-concurrency-programming"
+version = "0.1.0"
+description = ""
+authors = ["송승관 <yanhis97531@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_concurrency_programming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+black = "^23.3.0"
+pylint = "^2.17.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
